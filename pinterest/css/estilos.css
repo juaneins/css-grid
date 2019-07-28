@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-gap: 5px;
+    justify-content: center;
+}
+
+.item {
+    border-radius: 5px;
+    padding: 5px;
+    background: #f2f2f2;
+}
+
+.item img {
+    max-width: 100px;
+}
+
+.level-1 {
+    grid-row-end: 3 span;
+}
+.level-2 {
+    grid-row-end: 2 span;
+}
+.level-3 {
+    grid-row-end: 1 span;
+}
